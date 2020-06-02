@@ -4,7 +4,7 @@ node_js:
 services:
   - postgresql # starts up postgres
 addons:
-  postgresql: "9.6" # highest available postgres version on Travis
+  postgresql: '9.6' # highest available postgres version on Travis
 dist: trusty # uses trusty environment
 sudo: false # when on trusty, uses Docker containers for speed
 notifications:
@@ -25,4 +25,3 @@ before_script:
 #   app: YOUR-HEROKU-APP-NAME-HERE # see README
 #   api_key:
 #     secure: YOUR-***ENCRYPTED***-API-KEY-HERE
-
